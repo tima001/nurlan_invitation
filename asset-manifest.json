@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/nurlan_invitation/static/css/main.9e07ad94.css",
-    "main.js": "/nurlan_invitation/static/js/main.e08c191b.js",
+    "main.js": "/nurlan_invitation/static/js/main.dccf049e.js",
     "static/js/787.d0f4f082.chunk.js": "/nurlan_invitation/static/js/787.d0f4f082.chunk.js",
-    "static/media/muz.mp3": "/nurlan_invitation/static/media/muz.f5b105c76b7f26881591.mp3",
+    "static/media/muz.mp3": "/nurlan_invitation/static/media/muz.3ef57a2d7480374299d5.mp3",
     "static/media/love.gif": "/nurlan_invitation/static/media/love.ee88fba2579aa21de32d.gif",
     "static/media/mainPhoto.gif": "/nurlan_invitation/static/media/mainPhoto.a0e4c0eb54920c8d8a89.gif",
     "static/media/KZPFChampionScriptPr.woff": "/nurlan_invitation/static/media/KZPFChampionScriptPr.c969debe842ccbe7bfb5.woff",
@@ -15,11 +15,11 @@
     "static/media/white_bold_circle.png": "/nurlan_invitation/static/media/white_bold_circle.bbc03b8629772ddee6ad.png",
     "index.html": "/nurlan_invitation/index.html",
     "main.9e07ad94.css.map": "/nurlan_invitation/static/css/main.9e07ad94.css.map",
-    "main.e08c191b.js.map": "/nurlan_invitation/static/js/main.e08c191b.js.map",
+    "main.dccf049e.js.map": "/nurlan_invitation/static/js/main.dccf049e.js.map",
     "787.d0f4f082.chunk.js.map": "/nurlan_invitation/static/js/787.d0f4f082.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9e07ad94.css",
-    "static/js/main.e08c191b.js"
+    "static/js/main.dccf049e.js"
   ]
 }
