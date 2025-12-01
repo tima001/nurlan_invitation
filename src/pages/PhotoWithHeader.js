@@ -6,7 +6,7 @@ const PhotoWithHeader = () => {
 
       <MainTitleName>💌 ТВОЁ ОСОБОЕ ПРИГЛАШЕНИЕ 💌</MainTitleName>
 
-      <MainTitleDate>06.03.2025</MainTitleDate>
+      <MainTitleDate>02.12.2025</MainTitleDate>
     </ContentWrapper>
   );
 };
@@ -17,7 +17,7 @@ const MainTitleName = styled.div`
   font-family: "Romulc",serif;
   width: 100%;
   align-items: center;
-  @media (max-width: 425px) {
+  @media (max-width: 440px) {
     font-weight: 200;
     position: absolute;
     font-size: 26px;
@@ -36,7 +36,7 @@ const MainTitleName = styled.div`
 
 
 const MainTitleDate = styled.div`
-  @media (max-width: 425px) {
+  @media (max-width: 440px) {
     position: absolute;
     font-family: "Romulc", Arial, sans-serif;
     font-size: 28px;
@@ -59,7 +59,7 @@ const ContentWrapper = styled.div`
 
   @media (max-width: 768px) {
   }
-  @media (max-width: 426px) {
+  @media (max-width: 440px) {
     background: linear-gradient(
         0deg,
         rgba(0, 0, 0, 0.2) 0%,

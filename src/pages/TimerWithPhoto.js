@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import styled from "@emotion/styled";
 
 const PhotoWithHeader = () => {
-  const targetDate = new Date("2025-03-06T00:18:00Z");
+  const targetDate = new Date("2025-12-02T14:00:00Z");
 
   const getTimeLeft = (target) => {
     const now = new Date().getTime();
@@ -42,15 +42,10 @@ const PhotoWithHeader = () => {
   return (
     <ContentWrapper>
       <MainTitleName>
-        Уже дождаться не могу😅:
+        Место встречи: Astrum
         <br />
       </MainTitleName>
       <TimerWrapper>
-        <TitleNumber>
-          {timeLeft.days}
-          <TitleInfo>күн</TitleInfo>
-        </TitleNumber>
-        <Line />
         <TitleNumber>
           {timeLeft.hours} <br />
           <TitleInfo> сағат</TitleInfo>{" "}
@@ -81,7 +76,7 @@ const MainTitleName = styled.div`
   align-items: center;
   width: 100%;
   text-align: center;
-  @media (max-width: 425px) {
+  @media (max-width: 440px) {
     color: #fff;
     font-size: 24px;
     font-style: normal;
@@ -97,7 +92,7 @@ const MainTitleName = styled.div`
   }
 `;
 const TitleNumber = styled.div`
-  @media (max-width: 425px) {
+  @media (max-width: 440px) {
     color: #fff;
     font-family: "BKANTKZ", Arial, sans-serif;
     font-size: 26px;
@@ -113,7 +108,7 @@ const TitleNumber = styled.div`
   }
 `;
 const Line = styled.div`
-  @media (max-width: 425px) {
+  @media (max-width: 440px) {
     background: rgba(255, 255, 255, 0.5);
     height: 64px;
     width: 2px;
@@ -122,7 +117,7 @@ const Line = styled.div`
   }
 `;
 const TimerWrapper = styled.div`
-  @media (max-width: 425px) {
+  @media (max-width: 440px) {
     display: flex;
     margin: 0;
     padding: 0 36px;
@@ -138,7 +133,7 @@ const TimerWrapper = styled.div`
   }
 `;
 const TitleInfo = styled.div`
-  @media (max-width: 425px) {
+  @media (max-width: 440px) {
     color: #fff;
     font-family: "BKANTKZ", Arial, sans-serif;
     font-size: 18px;
@@ -153,7 +148,7 @@ const TitleInfo = styled.div`
 const ContentWrapper = styled.div`
   position: relative;
 
-  @media (max-width: 425px) {
+  @media (max-width: 440px) {
     width: 100%;
     background-size: 100% !important;
     height: 525px;

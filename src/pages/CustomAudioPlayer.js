@@ -85,7 +85,7 @@ const PlayMeImg = styled.img`
 `;
 
 const CircleForIcon = styled.div`
-  @media (max-width: 425px) {
+  @media (max-width: 440px) {
     z-index: 100;
     position: absolute;
     margin-top: 13px;
@@ -106,7 +106,7 @@ const MuteWrapper = styled.div`
   padding-right: 12px;
   z-index: 10;
   display: flex;
-  @media (max-width: 425px) {
+  @media (max-width: 440px) {
     top: 400px;
   }
   @media (max-width: 375px) {
