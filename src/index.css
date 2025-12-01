@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "kz-balmoral-regular";
+  src: url("./fonts/kz-balmoral-regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "KZ_Days";
+  src: url("./fonts/KZ_Days.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Romulc";
+  src: url("./fonts/Romulc.woff") format("woff");
+}
+@font-face {
+  font-family: "BKANTKZ";
+  src: url("./fonts/BKANTKZ.woff") format("woff");
+}
+@font-face {
+  font-family: "GreatFont";
+  src: url("./fonts/KZPFChampionScriptPr.woff") format("woff");
+}
+
+body {
+  margin: 0;
+  font-family: "kz-balmoral-regular", sans-serif; /* Use a fallback font */
+}
+
+code {
+  font-family: "BKANTKZ", Arial, sans-serif;
+}
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+code,
+img,
+b,
+u,
+i,
+center,
+table,
+tr,
+th,
+td,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
